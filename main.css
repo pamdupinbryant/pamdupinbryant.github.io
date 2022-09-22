@@ -12,15 +12,15 @@ body {
 	margin: 0 auto;
 }
 
-header, footer, main, nav {
-	padding: 20px;
-}
-
 /* Styles */
 
 header {
 	background-color: #011946;
 	padding: 10px;
+}
+
+footer, main, nav {
+	padding: 20px;
 }
 
 nav, footer {
