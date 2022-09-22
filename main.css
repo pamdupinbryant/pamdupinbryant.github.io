@@ -20,6 +20,7 @@ header, footer, main, nav {
 
 header {
 	background-color: #011946;
+	padding: 10px;
 }
 
 nav, footer {
