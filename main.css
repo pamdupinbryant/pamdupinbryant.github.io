@@ -35,6 +35,10 @@ nav, footer {
 	z-index: 100;
 }
 
+#mainLogo {
+	height: 80px;
+}
+
 #mainContent {
 	grid-area: main;
 }
