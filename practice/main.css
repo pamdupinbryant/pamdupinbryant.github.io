@@ -12,8 +12,12 @@ body {
 	margin: 0 auto;
 }
 
-header, footer, main, nav, div {
+header, footer, main, div {
 	padding: 20px;
+}
+
+nav {
+	padding: 10px;
 }
 
 /* Styles for the table schedule */
@@ -139,15 +143,19 @@ nav, div {
 #pageHeader {
 	grid-area: header;
 }
+
 #pageFooter {
 	grid-area: footer;
 }
+
 #mainContent {
 	grid-area: main;
 }
+
 #mainNav {
 	grid-area: nav;
 }
+
 #siteSearch {
 	grid-area: search;
 }
@@ -157,7 +165,7 @@ nav, div {
 	padding: 3px;
 	text-decoration: none;
 	color: #000;
-} 
+}
 
 #mainNav ul {
 	list-style-type: none;
@@ -257,4 +265,5 @@ footer li a {
 		font-size: 75%;
 	}
 }
+
 /* end */

@@ -8,6 +8,7 @@
     <title>User Interface/User Experience Web Design</title>
     <link href="main.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" href="https://www.usu.edu/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -21,7 +22,24 @@
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="table.html">Table Practice</a></li>
             <li><a href="form.html">Form Practice</a></li>
+
+            <!-- <li>
+                <form id="form" role="search" method="get" action="http://www.google.com/search">
+                    <input type="search" id="query" placeholder="Search Google" size=15>
+                    <button>Search</button>
+                </form>
+            </li> -->
+
+            <li>
+                <form id="form" role="search" method="get" action="http://www.google.com/search">
+                    <input type="hidden" name="sitesearch" value="pamdupinbryant.github.io">
+                    <input type="search" id="query" placeholder="Search Pam's Site" size=15>
+                    <button>Search</button>
+                </form>
+            </li>
+
             <li><a href="search.html" aria-label="search"><i class="fa fa-search"></i></a></li>
+
         </ul>
     </nav>
 
@@ -33,7 +51,6 @@
                 SEO</a></h3>
         <h3><a href="https://search.google.com/search-console/welcome">Google Search
                 Console</a></h3>
-
         <h3><a href="https://programmablesearchengine.google.com/about/">Google Programmable Search</a></h3>
     </main>
 
@@ -42,8 +59,6 @@
         <!-- SiteSearch Google -->
         <form role="search" method="get" action="http://www.google.com/search">
             <div id="search">
-                <!-- <label for="keyword">Search:</label>
-                <input type="search" name="keyword" id="keyword" placeholder="Search..."> -->
                 <label for="q">Search:</label>
                 <input id="q" name="q" size="20" maxlength="255" value="" type="text" placeholder="Search...">
                 <input name="domains" value="https://pamdupinbryant.github.io/" type="hidden">
@@ -71,11 +86,16 @@
     <footer id="pageFooter">
         <ul>
             <li><a href="https://www.linkedin.com/" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://www.facebook.com/" aria-label="facebook"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://www.instagram.com/?hl=en" aria-label="instagram"><i class="fab fa-instagram-square"></i></a></li>
-            <li><a href="https://twitter.com/?lang=en" aria-label="twitter"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.snapchat.com/" aria-label="snapchat"><i class="fab fa-snapchat-square"></i></a></li>
-            <li><a href="mailto:pam.dupin-bryant@usu.edu" aria-label="email"><i class="fas fa-envelope-square"></i></a></li>
+            <li><a href="https://www.facebook.com/" aria-label="facebook"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/?hl=en" aria-label="instagram"><i
+                        class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://twitter.com/?lang=en" aria-label="twitter"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li><a href="https://www.snapchat.com/" aria-label="snapchat"><i class="fab fa-snapchat-square"></i></a>
+            </li>
+            <li><a href="mailto:pam.dupin-bryant@usu.edu" aria-label="email"><i class="fas fa-envelope-square"></i></a>
+            </li>
         </ul>
     </footer>
 
